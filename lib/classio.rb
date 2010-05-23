@@ -1,3 +1,5 @@
+# inspired by the oodle-api-ruby project on github
+
 require 'net/http'
 require 'cgi'
 #require 'xmlsimple'
