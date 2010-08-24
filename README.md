@@ -16,7 +16,7 @@ classio using various search criteria.
 Install classio-ruby using RubyGems. The gem is hosted on
 rubygems.org, so ensure that is in your gem sources.
 
-   $ sudo gem install classio-ruby
+    $ sudo gem install classio-ruby
 
 
 ## USAGE
