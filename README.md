@@ -24,8 +24,7 @@ rubygems.org, so ensure that is in your gem sources.
 You can use classio-ruby for two purposes:
 
 * Push your existing classified listings into the classio platform
-* Search listings within classio and pull out the results for use
-  within your own application
+* Search listings within classio and pull out the results for use within your own application
 
     classio = Classio::API.new(api_key)
     listing = Classio::Listing.new(:title => "2BR in Chelsea Overlooking the Hudson",
