@@ -5,7 +5,7 @@ classio-ruby -- a ruby wrapper around the classio open classifieds api.
 and until gem version 1.0 is released all the functionality below
 isn't necessarily supported or tested yet.)
 
-## DESCRIPTION
+## DESCRIPTION ##
 
 classio-ruby is a ruby wrapper built on top of the classio open
 classifieds api. 
@@ -15,7 +15,7 @@ listings into classio, and it also lets you retrieve listings from
 classio using various search criteria.
 
 
-## INSTALLATION
+## INSTALLATION ##
 
 Install classio-ruby using RubyGems. The gem is hosted on
 rubygems.org, so ensure that is in your gem sources.
@@ -23,7 +23,7 @@ rubygems.org, so ensure that is in your gem sources.
     $ sudo gem install classio-ruby
 
 
-## USAGE
+## USAGE ##
 
 Insert your listings into classio
 
@@ -49,7 +49,7 @@ Search listings from classio
                                                     :price => 2000..4000)
 
 
-## Listing Fields
+## LISTING FIELDS ##
 
 You can pass the following fields into a listing that you create. See
 the official documentation for a list of all valid values. **Bold**
@@ -82,7 +82,7 @@ fields are required.
    how to display the images
    
    
-## Search Parameters ##
+## SEARCH PARAMETERS ##
 
 The following search parameters can be passed into the classio search
 query. See the official documentation for all available values.
@@ -98,7 +98,7 @@ query. See the official documentation for all available values.
    results, and not results you've already pulled in with a previous request.
 
 
-## LICENSE
+## LICENSE ##
 
 (The MIT License)
 
