@@ -26,10 +26,8 @@ You can use classio-ruby for two purposes:
 * Push your existing classified listings into the classio platform
 * Search listings within classio and pull out the results for use within your own application
 
-
     # Insert a listing into classio
     classio = Classio::API.new(api_key)
-    
     listing = Classio::Listing.new(
                                    { :title => "2BR in Chelsea Overlooking the Hudson",
                                      :description => "Love this place",
@@ -40,7 +38,6 @@ You can use classio-ruby for two purposes:
                                      :for_sale => true,
                                      :price => 3000 }
                                    )
-    
     classio.insert_listing(listing)
                                    
 
