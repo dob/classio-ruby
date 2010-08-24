@@ -1,6 +1,10 @@
 classio-ruby -- a ruby wrapper around the classio open classifieds api.
 =======================================================================
 
+(note that this README is an attempt at documentation before coding,
+and until gem version 1.0 is released all the functionality below
+isn't necessarily supported or tested yet.)
+
 ## DESCRIPTION
 
 classio-ruby is a ruby wrapper built on top of the classio open
