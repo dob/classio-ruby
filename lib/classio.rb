@@ -2,7 +2,6 @@
 
 require 'net/http'
 require 'cgi'
-#require 'xmlsimple'
 
 module Classio
 
@@ -53,8 +52,6 @@ module Classio
     def insert_listing
       res = get_result
       res
-      #result = XmlSimple.xml_in res, { 'ForceArray' => false, 'AttrPrefix' => true }
-      #result
     end
 
   end
