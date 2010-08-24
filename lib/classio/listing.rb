@@ -1,3 +1,5 @@
+require 'cgi'
+
 module Classio
   class Listing
     attr_accessor :title, :description, :category_id, :poster_contact, :url, :source, :expiration_date, :for_sale, :price, :region_id, :address1, :address2, :city, :state, :country, :zip, :lat, :long, :image_urls
