@@ -28,14 +28,13 @@ your own application
 
     classio = Classio::API.new(api_key)
     listing = Classio::Listing.new(:title => "2BR in Chelsea Overlooking the Hudson",
-    :description =>
-    "Love this place",
-    :category_id => 1,   # housing,
-    :url => "http://jumppost.com/apartments/23",
-    :source => "jumppost.com",
-    :expiration_date => "2010 11-01",
-    :for_sale => true,
-    :price => 3000 )
+                                                   :description => "Love this place",
+                                                   :category_id => 1,  # housing,
+                                                   :url => "http://jumppost.com/apartments/23",
+                                                   :source => "jumppost.com",
+                                                   :expiration_date => "2010 11-01",
+                                                   :for_sale => true,
+                                                   :price => 3000 )
     classio.insert_listing(listing)
 
 
